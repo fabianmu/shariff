@@ -1,0 +1,31 @@
+.shariff {
+    .messenger {
+        a {
+            background-color: #3396f3;
+            &:hover {
+                background-color: #50aafe;
+            }
+        }
+        .fa-messenger {
+            font-size: 22px;
+            &:before {
+                // adding another icon, setting it to transparent. this simply helps to circumvent the missing messenger icon in fontawesome
+                content: "\F0E1";
+                color: transparent !important;
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAmCAQAAAACNCElAAAAAXNSR0IArs4c6QAAAixJREFUSMel1k9IFGEcxvEnSFpBwpD948EIxCLqWEG4gXQKglg6ROqakQhCIEh2qYtUqwcvXZTy0rUOkUGgdAg6FF5siw5Rh1BhNWw3KMjVZPfbYXZ2Z3dnxpmd5zTzm5cP7zDv751XcgltdDPECEssMcIQ3bTJf2hnjEXWqc06i4zR7h2KkbJhqskUMS/UACt4yQoD7lAzM/jJDM1OVAvz+M08Lfaz8k8ZXP3smKXRzNZSvQRJr5WKsBYIWyNSwSYJmkmTCrMRGNsgbGDDrsO2XJ79tVwPG9iCy/BlTjDOrs2TVUbp5Hv5fsHoxKwj9YEOSeIqv6vqOVJEJZKWeWeJiThFd0qSOMdqqZpnji5JYpAdy+gicdHvQKUrlCRxlGXgBWdK99UUQL+YcKAO1/VIlJ7y9bU6Cu6Jr96oKtaOgrfiVl3xo0lxmmdct9nxdmzf5qbos6foYo48UOCOJwoS4hSFKqpDIsoDcpbqI0J7UtscF62WJs8QJsSozcb9irBE0pGCL4Qk8bRc+MV90o69MM22S688NqZ+ieAplJYNB/gUGHtPk/mFkgGpIhcrn3s/rwNhz9lnXT3H2GyYynCkdl0n+NcQtcUFu467Qd43tcugUwPf9kn9oc95N7jsi0pz1m1rueIZyjFFq/spqILlLb+K2vxgms69z2Ym9o44BznPXV7ymQw5frLJN97wkISnY14JyzJubjiSRBOHiBEh4ngWc8AiPOGkGs5/GzXL1PeMRpcAAAAASUVORK5CYII=);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+        .share_count {
+            color: #183a75;
+            background-color: #99adcf;
+        }
+    }
+    .theme-white {
+        .messenger a {
+            color: #3396f3;
+        }
+    }
+}

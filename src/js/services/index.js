@@ -8,6 +8,7 @@ module.exports = {
   info: require('./info'),
   linkedin: require('./linkedin'),
   mail: require('./mail'),
+  messenger: require('./messenger'),
   pinterest: require('./pinterest'),
   pocket: require('./pocket'),
   print: require('./print'),
